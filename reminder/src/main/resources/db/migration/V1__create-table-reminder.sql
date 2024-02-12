@@ -1,0 +1,7 @@
+CREATE TABLE reminder (
+    id UUID PRIMARY KEY UNIQUE NOT NULL,
+    title VARCHAR(30) NOT NULL,
+    email VARCHAR(120) NOT NULL,
+    details VARCHAR(300) NOT NULL,
+    date VARCHAR(20) NOT NULL
+);
